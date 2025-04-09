@@ -1,0 +1,287 @@
+{
+  "categories": [
+    {
+      "id": "galvanized-steel",
+      "name": "Galvanized Steel Products",
+      "description": "Premium galvanized steel materials with superior corrosion resistance for construction, manufacturing, and industrial applications.",
+      "image": "public/images/products/galvanized-steel-hero.jpg",
+      "overview": "Galvanized steel is carbon steel that has been coated with a layer of zinc to prevent rust and corrosion. This protective zinc layer acts as a barrier between the steel and environmental elements, making it ideal for both indoor and outdoor applications.",
+      "advantages": [
+        "Superior corrosion resistance extending product lifespan",
+        "Cost-effective protection compared to other coatings",
+        "Excellent scratch and abrasion resistance",
+        "Versatile for both indoor and outdoor applications",
+        "Multiple coating thickness options (Z60-Z600)",
+        "100% recyclable, environmentally friendly material"
+      ],
+      "products": [
+        {
+          "id": "galvanized-steel-coil",
+          "name": "Galvanized Steel Coil",
+          "description": "High-quality hot-dipped galvanized steel coils with various zinc coating weights, suitable for construction, automotive, and home appliance applications.",
+          "image": "public/images/products/galvanized-steel-coil.jpg",
+          "specifications": {
+            "Standard": "JIS G3302, ASTM A653, EN 10346",
+            "Thickness": "0.12-3.0mm",
+            "Width": "600-1500mm",
+            "Zinc Coating": "Z60-Z600 g/m²"
+          }
+        },
+        {
+          "id": "galvanized-steel-plate",
+          "name": "Galvanized Steel Plate",
+          "description": "Precision-cut galvanized steel plates for construction, manufacturing, and engineering applications requiring excellent corrosion resistance.",
+          "image": "public/images/products/galvanized-steel-plate.jpg",
+          "specifications": {
+            "Standard": "JIS G3302, ASTM A653, EN 10346",
+            "Thickness": "0.5-6.0mm",
+            "Width": "600-1500mm",
+            "Length": "1000-6000mm or custom cut"
+          }
+        },
+        {
+          "id": "galvanized-steel-pipe",
+          "name": "Galvanized Steel Pipe",
+          "description": "High-strength galvanized steel pipes for fluid transportation, structural applications, and scaffolding with excellent corrosion resistance.",
+          "image": "public/images/products/galvanized-steel-pipe.jpg",
+          "specifications": {
+            "Standard": "ASTM A53, BS EN 10255, ISO 65",
+            "Diameter": "15-200mm",
+            "Wall Thickness": "1.0-10.0mm",
+            "Length": "6m, 12m, or custom length"
+          }
+        },
+        {
+          "id": "galvanized-roofing-sheet",
+          "name": "Galvanized Roofing Sheet",
+          "description": "Durable corrugated and trapezoidal galvanized roofing sheets for commercial and residential construction with excellent weather resistance.",
+          "image": "public/images/products/galvanized-roofing-sheet.jpg",
+          "specifications": {
+            "Thickness": "0.14-1.2mm",
+            "Width": "700-1250mm",
+            "Length": "Custom cut to requirements",
+            "Profile": "Corrugated, Trapezoidal, IBR"
+          }
+        }
+      ],
+      "technicalSpecs": {
+        "standards": [
+          {"name": "ASTM A653/A653M", "grade": "CS (Type A, B, C), FS (Type A, B), SS (Grade 33, 37, 40, 50, 80)", "coating": "G30, G60, G90, G115, G165, G210, G235", "finish": "Regular Spangle, Minimized Spangle, Zero Spangle"},
+          {"name": "JIS G3302", "grade": "SGCC, SGCH, SGC340, SGC400, SGC440, SGC490, SGC570", "coating": "Z06, Z08, Z10, Z12, Z18, Z20, Z22, Z25, Z27", "finish": "Regular Spangle, Zero Spangle"},
+          {"name": "EN 10346", "grade": "DX51D, DX52D, DX53D, DX54D, DX56D, S220GD, S250GD, S280GD, S320GD, S350GD", "coating": "Z100, Z140, Z200, Z225, Z275, Z350, Z450, Z600", "finish": "Normal Spangle, Minimized Spangle, Skin-passed, Oiled"},
+          {"name": "GB/T 2518", "grade": "SGCC, SGCH, SGCD", "coating": "Z60, Z80, Z100, Z120, Z140, Z180, Z200, Z220, Z275", "finish": "Regular Spangle, Zero Spangle, Skin-passed"}
+        ],
+        "mechanicalProperties": [
+          {"grade": "SGCC (Commercial Quality)", "yieldStrength": "≥ 140", "tensileStrength": "270-500", "elongation": "≥ 20"},
+          {"grade": "SGC340 (Structural Quality)", "yieldStrength": "≥ 340", "tensileStrength": "410-560", "elongation": "≥ 16"},
+          {"grade": "SGC400 (High Strength)", "yieldStrength": "≥ 400", "tensileStrength": "480-620", "elongation": "≥ 14"},
+          {"grade": "SGC490 (Ultra High Strength)", "yieldStrength": "≥ 490", "tensileStrength": "570-720", "elongation": "≥ 12"}
+        ]
+      },
+      "applications": [
+        {
+          "name": "Construction",
+          "icon": "fas fa-building",
+          "description": "Used in roofing, wall cladding, structural components, HVAC systems, and building frameworks where corrosion resistance is essential."
+        },
+        {
+          "name": "Manufacturing",
+          "icon": "fas fa-industry",
+          "description": "Essential for automotive parts, home appliances, electrical equipment, furniture, and industrial machinery components."
+        },
+        {
+          "name": "Infrastructure",
+          "icon": "fas fa-water",
+          "description": "Utilized in water distribution systems, highway guardrails, street furniture, transportation equipment, and utility structures."
+        }
+      ],
+      "relatedProducts": ["ppgi-steel", "carbon-steel", "aluminum-products"]
+    },
+    {
+      "id": "stainless-steel",
+      "name": "Stainless Steel Products",
+      "description": "Premium stainless steel materials with exceptional corrosion resistance for architectural, food processing, chemical, and industrial applications.",
+      "image": "public/images/products/stainless-steel-hero.jpg",
+      "overview": "Stainless steel is a steel alloy with a minimum of 10.5% chromium content, which provides superior corrosion resistance. The chromium forms a passive layer of chromium oxide that prevents surface corrosion and blocks further corrosion from spreading into the metal's internal structure.",
+      "advantages": [
+        "Exceptional corrosion resistance in various environments",
+        "Excellent high-temperature performance",
+        "Superior hygiene and easy-to-clean surface",
+        "Attractive aesthetic appearance with various finishes",
+        "High strength-to-weight ratio",
+        "100% recyclable with high scrap value"
+      ],
+      "products": [
+        {
+          "id": "stainless-steel-coil",
+          "name": "Stainless Steel Coil",
+          "description": "High-quality stainless steel coils in various grades and finishes for diverse applications requiring corrosion resistance and aesthetic appeal.",
+          "image": "public/images/products/stainless-steel-coil.jpg",
+          "specifications": {
+            "Grades": "201, 202, 301, 304, 304L, 316, 316L, 321, 409, 410, 430",
+            "Thickness": "0.1-3.0mm",
+            "Width": "600-1500mm",
+            "Finish": "2B, BA, No.1, No.4, HL, Mirror, Hairline, Satin"
+          }
+        },
+        {
+          "id": "stainless-steel-plate",
+          "name": "Stainless Steel Plate",
+          "description": "Durable stainless steel plates ideal for architectural, food processing, chemical, and structural applications requiring superior corrosion resistance.",
+          "image": "public/images/products/stainless-steel-plate.jpg",
+          "specifications": {
+            "Grades": "304, 304L, 316, 316L, 321, 310S, 409, 410, 430",
+            "Thickness": "1.0-50mm",
+            "Width": "1000-2000mm",
+            "Length": "2000-6000mm or custom cut"
+          }
+        },
+        {
+          "id": "stainless-steel-bar",
+          "name": "Stainless Steel Bar",
+          "description": "Precision stainless steel bars in round, square, flat, and hexagonal shapes for manufacturing, construction, and engineering applications.",
+          "image": "public/images/products/stainless-steel-bar.jpg",
+          "specifications": {
+            "Grades": "303, 304, 316, 410, 416, 420, 431",
+            "Diameter/Size": "Round: 3-300mm, Square: 4-150mm, Flat: Various dimensions",
+            "Length": "Standard 3m, 6m, or custom length",
+            "Surface": "Black, Bright, Peeled, Ground, Polished"
+          }
+        },
+        {
+          "id": "stainless-steel-pipe",
+          "name": "Stainless Steel Pipe",
+          "description": "Corrosion-resistant stainless steel pipes for fluid transport, food processing, chemical, and architectural applications with excellent durability.",
+          "image": "public/images/products/stainless-steel-pipe.jpg",
+          "specifications": {
+            "Grades": "304, 304L, 316, 316L, 321, 310S, 409, 430",
+            "Outer Diameter": "6-630mm",
+            "Wall Thickness": "0.5-50mm",
+            "Type": "Seamless, Welded (ERW, EFW)",
+            "Surface": "Bright Annealed, Pickled, Polished, Brushed"
+          }
+        }
+      ],
+      "technicalSpecs": {
+        "standards": [
+          {"name": "ASTM A240/A240M", "description": "Standard specification for chromium and chromium-nickel stainless steel plate, sheet, and strip for pressure vessels and general applications"},
+          {"name": "ASTM A276", "description": "Standard specification for stainless steel bars and shapes"},
+          {"name": "ASTM A312", "description": "Standard specification for seamless, welded, and heavily cold worked austenitic stainless steel pipes"},
+          {"name": "ASTM A666", "description": "Standard specification for annealed or cold-worked austenitic stainless steel sheet, strip, plate, and flat bar"}
+        ],
+        "chemicalComposition": [
+          {"grade": "304/304L", "carbon": "≤0.08/≤0.03", "chromium": "18-20", "nickel": "8-12", "other": "Mn, Si, P, S"},
+          {"grade": "316/316L", "carbon": "≤0.08/≤0.03", "chromium": "16-18", "nickel": "10-14", "other": "Mo: 2-3, Mn, Si, P, S"},
+          {"grade": "430", "carbon": "≤0.12", "chromium": "16-18", "nickel": "≤0.75", "other": "Mn, Si, P, S"},
+          {"grade": "201", "carbon": "≤0.15", "chromium": "16-18", "nickel": "3.5-5.5", "other": "Mn: 5.5-7.5, N: 0.25"}
+        ]
+      },
+      "applications": [
+        {
+          "name": "Food & Beverage",
+          "icon": "fas fa-utensils",
+          "description": "Ideal for food processing equipment, commercial kitchens, breweries, and dairy facilities due to its hygiene and corrosion resistance."
+        },
+        {
+          "name": "Architecture",
+          "icon": "fas fa-landmark",
+          "description": "Used in facades, railings, elevators, and decorative elements where aesthetic appeal and durability are essential."
+        },
+        {
+          "name": "Chemical Processing",
+          "icon": "fas fa-flask",
+          "description": "Critical for storage tanks, heat exchangers, valves, and piping systems in aggressive chemical environments."
+        }
+      ],
+      "relatedProducts": ["carbon-steel", "steel-pipes", "structural-steel"]
+    },
+    {
+      "id": "carbon-steel",
+      "name": "Carbon Steel Products",
+      "description": "High-quality carbon steel materials for structural, manufacturing, and general engineering applications with excellent strength and durability.",
+      "image": "public/images/products/carbon-steel-hero.jpg",
+      "products": [
+        {
+          "id": "carbon-steel-coil",
+          "name": "Carbon Steel Coil",
+          "description": "Versatile carbon steel coils for manufacturing, construction, and general engineering applications.",
+          "image": "public/images/products/carbon-steel-coil.jpg",
+          "specifications": {
+            "Grades": "Q195, Q215, Q235, Q345, SS400, SPCC, SPHC",
+            "Thickness": "0.8-25.0mm",
+            "Width": "600-2000mm",
+            "Surface": "Black, Pickled, Oiled"
+          }
+        },
+        {
+          "id": "carbon-steel-plate",
+          "name": "Carbon Steel Plate",
+          "description": "Heavy-duty carbon steel plates for structural applications, machinery manufacturing, and shipbuilding.",
+          "image": "public/images/products/carbon-steel-plate.jpg",
+          "specifications": {
+            "Grades": "Q235B, Q345B, SS400, A36, S235JR, S275JR, S355JR",
+            "Thickness": "6-200mm",
+            "Width": "1500-4000mm",
+            "Length": "3000-18000mm"
+          }
+        },
+        {
+          "id": "carbon-steel-bar",
+          "name": "Carbon Steel Bar",
+          "description": "Solid carbon steel bars in various shapes for construction, manufacturing, and mechanical applications.",
+          "image": "public/images/products/carbon-steel-bar.jpg",
+          "specifications": {
+            "Grades": "Q235, Q345, 20#, 45#, 40Cr, A36",
+            "Diameter": "Round: 10-300mm, Square: 10-200mm",
+            "Length": "Standard 6m, 9m, 12m or custom length",
+            "Surface": "Black, Peeled, Ground"
+          }
+        },
+        {
+          "id": "carbon-steel-pipe",
+          "name": "Carbon Steel Pipe",
+          "description": "Durable carbon steel pipes for fluid transport, structural applications, and general engineering uses.",
+          "image": "public/images/products/carbon-steel-pipe.jpg",
+          "specifications": {
+            "Grades": "Q195, Q235, Q345, 20#, A53, A106",
+            "Diameter": "15-1220mm",
+            "Wall Thickness": "1.5-60mm",
+            "Type": "Seamless, ERW, LSAW, SSAW"
+          }
+        }
+      ]
+    },
+    {
+      "id": "structural-steel",
+      "name": "Structural Steel Products",
+      "description": "High-strength structural steel sections for construction and infrastructure applications, including H-beams, I-beams, angle steel, and channel steel.",
+      "image": "public/images/products/structural-steel-hero.jpg",
+      "products": [
+        {
+          "id": "h-beam-steel",
+          "name": "H-Beam Steel",
+          "description": "Load-bearing H-beams for commercial buildings, industrial structures, and infrastructure projects.",
+          "image": "public/images/products/h-beam-steel.jpg",
+          "specifications": {
+            "Standard": "GB/T 11263, ASTM A992, EN 10025",
+            "Size Range": "100x100-900x300mm",
+            "Grades": "Q235B, Q345B, SS400, A36, S235JR, S355JR",
+            "Length": "6-12m or custom length"
+          }
+        },
+        {
+          "id": "i-beam-steel",
+          "name": "I-Beam Steel",
+          "description": "Traditional I-beam sections for construction, industrial support structures, and bridges.",
+          "image": "public/images/products/i-beam-steel.jpg",
+          "specifications": {
+            "Standard": "GB/T 706, ASTM A36, JIS G3192",
+            "Size Range": "100-900mm height",
+            "Grades": "Q235B, Q345B, SS400, A36",
+            "Length": "6-12m or custom length"
+          }
+        }
+      ]
+    }
+  ]
+}
