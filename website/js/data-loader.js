@@ -5,8 +5,8 @@
 
 // Configuration
 const CONFIG = {
-    dataPath: '/data/', // Path to JSON data files
-    imageBasePath: '/', // Base path for images
+    dataPath: '/website/data/', // Path to JSON data files
+    imageBasePath: '/website/', // Base path for images
     defaultErrorMessage: 'Failed to load content. Please try again later.'
   };
   
@@ -60,7 +60,7 @@ const CONFIG = {
      */
     async loadCategories() {
       try {
-        const data = await loadJsonData('products.json');
+        const data = await loadJsonData('../data/products.json');
         return data.categories || [];
       } catch (error) {
         return [];
