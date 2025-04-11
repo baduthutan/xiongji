@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Xiongji Steel</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+            margin-bottom: 40px;
+        }
+        .service-card {
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        .process-step {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+        .process-number {
+            width: 50px;
+            height: 50px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .testimonial {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .testimonial-author img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .custom-footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+        .social-icons a {
+            color: white;
+            margin-right: 15px;
+            font-size: 1.5rem;
+        }
+        .cta-section {
+            background-color: #007bff;
+            color: white;
+            padding: 60px 0;
+            margin: 40px 0;
+        }
+        .products-section img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Xiongji Steel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Our Services</h1>
+                    <p class="lead">We provide comprehensive steel manufacturing and supply solutions tailored to your specific requirements.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/500/300" alt="Services" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Services Section -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-5">What We Offer</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4 class="card-title">Manufacturing</h4>
+                        <p class="card-text">We manufacture a wide range of steel products using state-of-the-art technology and advanced production processes to ensure quality and precision.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h4 class="card-title">Export & Supply</h4>
+                        <p class="card-text">We supply steel products to customers worldwide, with efficient logistics and shipping solutions to ensure timely delivery of your orders.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                        <h4 class="card-title">Custom Solutions</h4>
+                        <p class="card-text">We offer customized steel products tailored to your specific requirements, with a team of experts to assist you in finding the right solution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-clipboard-check"></i>
+                        </div>
+                        <h4 class="card-title">Quality Inspection</h4>
+                        <p class="card-text">Our products undergo rigorous quality control checks to ensure they meet international standards and specifications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h4 class="card-title">Technical Support</h4>
+                        <p class="card-text">Our experienced team provides technical support and guidance to help you select the right products for your projects.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-recycle"></i>
+                        </div>
+                        <h4 class="card-title">Eco-Friendly Processes</h4>
+                        <p class="card-text">We are committed to sustainable manufacturing processes that minimize environmental impact and conserve resources.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <div class="container mb-5 products-section">
+        <h2 class="text-center mb-5">Our Steel Products</h2>
+        <div class="row">
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="H-Beam">
+                <h5>H-Beam</h5>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="I-Beam">
+                <h5>I-Beam</h5>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="Steel Pipe">
+                <h5>Steel Pipe</h5>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="Steel Coil">
+                <h5>Steel Coil</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="Angle Steel">
+                <h5>Angle Steel</h5>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="Channel Steel">
+                <h5>Channel Steel</h5>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="Steel Plate">
+                <h5>Steel Plate</h5>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/api/placeholder/300/200" alt="Steel Rebar">
+                <h5>Steel Rebar</h5>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-primary">View All Products</a>
+        </div>
+    </div>
+
+    <!-- Service Process -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-5">Our Service Process</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <h4>Initial Consultation</h4>
+                    <p>We discuss your requirements and specifications to understand your needs.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <h4>Quotation & Order</h4>
+                    <p>We provide a detailed quotation and process your order once confirmed.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <h4>Production & QC</h4>
+                    <p>We manufacture your products with strict quality control measures.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-step">
+                    <div class="process-number">4</div>
+                    <h4>Delivery & Support</h4>
+                    <p>We arrange shipment and provide after-sales technical support.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="cta-section">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Start Your Project?</h2>
+            <p class="lead mb-4">Contact us today to discuss your steel requirements and get a customized quote.</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Contact Us Now</a>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <i class="bi bi-quote text-primary display-1 opacity-25"></i>
+                    <p>Xiongji Steel has been our trusted supplier for over 5 years. Their products consistently meet our quality standards, and their service is exceptional.</p>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/60/60" alt="Client">
+                        <div>
+                            <h5 class="mb-0">John Smith</h5>
+                            <p class="text-muted">Procurement Manager, BuildCorp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <i class="bi bi-quote text-primary display-1 opacity-25"></i>
+                    <p>We appreciate Xiongji's commitment to quality and timely delivery. Their technical support team has been invaluable in helping us select the right materials for our projects.</p>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/60/60" alt="Client">
+                        <div>
+                            <h5 class="mb-0">Sarah Johnson</h5>
+                            <p class="text-muted">Project Manager, Global Construction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <i class="bi bi-quote text-primary display-1 opacity-25"></i>
+                    <p>The custom steel solutions provided by Xiongji have significantly improved our manufacturing process. Their attention to detail and precision is commendable.</p>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/60/60" alt="Client">
+                        <div>
+                            <h5 class="mb-0">David Chen</h5>
+                            <p class="text-muted">CEO, TechStructures Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the minimum order quantity?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Our minimum order quantity varies depending on the product. Generally, we accept orders starting from 20 tons for most steel products. For specialized items, please contact our sales team for specific requirements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What quality standards do your products meet?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Our products comply with international standards including ASTM, EN, JIS, and GB standards. We also provide test certificates and quality assurance documents with each shipment.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is your delivery time?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Delivery time depends on the product type, quantity, and your location. Standard delivery time ranges from 15-45 days after order confirmation and receipt of payment. For urgent orders, we can discuss expedited production and shipping options.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Do you offer custom specifications?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we offer customization of steel products according to your specific requirements. Our technical team will work with you to develop the right specifications for your project. Please provide detailed requirements when inquiring.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What payment terms do you accept?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We accept various payment methods including T/T (Telegraphic Transfer), L/C (Letter of Credit), and D/P (Documents against Payment). For new customers, we typically require a 30% deposit and 70% balance before shipment.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="custom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Xiongji Steel</h5>
+                    <p>Leading manufacturer and exporter of high-quality steel products for global markets.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="service.html" class="text-white">Services</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Information</h5>
+                    <address>
+                        <p>123 Steel Industrial Park<br>Shanghai, 200000<br>China</p>
+                        <p>Email: info@xiongji-steel.com<br>Phone: +86 21 1234 5678</p>
+                    </address>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 Xiongji Steel. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+</body>
+</html>
