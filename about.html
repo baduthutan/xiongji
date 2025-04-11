@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Xiongji Steel</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+            margin-bottom: 40px;
+        }
+        .about-image {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .team-member {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 5px solid #f8f9fa;
+        }
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+        .timeline:before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 2px;
+            background-color: #dee2e6;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .timeline-content {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .timeline-year {
+            background-color: #007bff;
+            color: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            font-weight: bold;
+        }
+        .custom-footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+        .social-icons a {
+            color: white;
+            margin-right: 15px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Xiongji Steel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>About Xiongji Steel</h1>
+                    <p class="lead">We are a leading manufacturer and exporter of steel products with over 20 years of experience in the industry.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="company_images/company.jpg" alt="Xiongji Company" class="img-fluid about-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Company Section -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="mb-4">Our Story</h2>
+                <p>Established in 2000, Xiongji Steel has grown from a small local supplier to a major international exporter of high-quality steel products. We specialize in manufacturing a wide range of steel products including H-beams, I-beams, steel pipes, steel coils, and more.</p>
+                <p>With our state-of-the-art manufacturing facilities, skilled workforce, and commitment to quality, we have built a strong reputation for delivering products that meet international standards and satisfy customer requirements.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company Values -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-4">Our Values</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Quality</h3>
+                        <p class="card-text">We are committed to maintaining the highest standards of quality in all our products. Our rigorous quality control processes ensure that every product that leaves our facility meets international standards.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Integrity</h3>
+                        <p class="card-text">We believe in conducting business with honesty, transparency, and ethical practices. We build long-term relationships with our customers based on trust and mutual respect.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Innovation</h3>
+                        <p class="card-text">We continuously strive to improve our products and processes through innovation and technology. We invest in research and development to stay ahead of market trends and meet evolving customer needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company Timeline -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-5">Our Journey</h2>
+        <div class="timeline">
+            <div class="row timeline-item">
+                <div class="col-md-5">
+                    <div class="timeline-content">
+                        <h4>Foundation</h4>
+                        <p>Xiongji Steel was established as a small steel trading company, focusing on local market.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center">
+                    <div class="timeline-year">2000</div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row timeline-item">
+                <div class="col-md-5"></div>
+                <div class="col-md-2 d-flex justify-content-center">
+                    <div class="timeline-year">2005</div>
+                </div>
+                <div class="col-md-5">
+                    <div class="timeline-content">
+                        <h4>Expansion</h4>
+                        <p>Expanded operations with a new manufacturing facility and began exporting to neighboring countries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-item">
+                <div class="col-md-5">
+                    <div class="timeline-content">
+                        <h4>Technological Upgrade</h4>
+                        <p>Invested in state-of-the-art technology to improve product quality and production efficiency.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center">
+                    <div class="timeline-year">2010</div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row timeline-item">
+                <div class="col-md-5"></div>
+                <div class="col-md-2 d-flex justify-content-center">
+                    <div class="timeline-year">2015</div>
+                </div>
+                <div class="col-md-5">
+                    <div class="timeline-content">
+                        <h4>Global Presence</h4>
+                        <p>Established sales offices in key markets and expanded export operations to over 20 countries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row timeline-item">
+                <div class="col-md-5">
+                    <div class="timeline-content">
+                        <h4>Sustainability Initiative</h4>
+                        <p>Launched eco-friendly production processes and committed to reducing carbon footprint.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center">
+                    <div class="timeline-year">2020</div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leadership Team -->
+    <div class="container mb-5">
+        <h2 class="text-center mb-4">Our Leadership Team</h2>
+        <div class="row">
+            <div class="col-md-4 team-member">
+                <img src="/api/placeholder/150/150" alt="CEO">
+                <h4>Zhang Wei</h4>
+                <p class="text-muted">Chief Executive Officer</p>
+                <p>With over 25 years in the steel industry, Zhang Wei has led Xiongji Steel to become a market leader.</p>
+            </div>
+            <div class="col-md-4 team-member">
+                <img src="/api/placeholder/150/150" alt="COO">
+                <h4>Li Jun</h4>
+                <p class="text-muted">Chief Operations Officer</p>
+                <p>Li Jun oversees all operations and ensures the efficient functioning of our manufacturing facilities.</p>
+            </div>
+            <div class="col-md-4 team-member">
+                <img src="/api/placeholder/150/150" alt="CTO">
+                <h4>Chen Mei</h4>
+                <p class="text-muted">Chief Technology Officer</p>
+                <p>Chen Mei leads our R&D efforts and is responsible for implementing technological innovations.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="custom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Xiongji Steel</h5>
+                    <p>Leading manufacturer and exporter of high-quality steel products for global markets.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="service.html" class="text-white">Services</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Information</h5>
+                    <address>
+                        <p>123 Steel Industrial Park<br>Shanghai, 200000<br>China</p>
+                        <p>Email: info@xiongji-steel.com<br>Phone: +86 21 1234 5678</p>
+                    </address>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 Xiongji Steel. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+</body>
+</html>
