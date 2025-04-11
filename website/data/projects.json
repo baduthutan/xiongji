@@ -1,0 +1,246 @@
+{
+  "projects": [
+    {
+      "id": "shanghai-metro-extension",
+      "title": "Shanghai Metro Line Extension",
+      "client": "Shanghai Metro Corporation",
+      "location": "Shanghai, China",
+      "year": "2024",
+      "category": "Infrastructure",
+      "description": "Supply of specialized steel pipes and structural components for the extension of Shanghai's metro system.",
+      "featuredImage": "public/images/projects/shanghai-metro.jpg",
+      "images": [
+        "public/images/projects/shanghai-metro-1.jpg",
+        "public/images/projects/shanghai-metro-2.jpg",
+        "public/images/projects/shanghai-metro-3.jpg"
+      ],
+      "challengeDescription": "The project required exceptional structural integrity for underground installation, resistance to groundwater corrosion, strict dimensional tolerances for tunnel boring machine compatibility, and compliance with stringent safety standards.",
+      "solutionDescription": "Our technical team worked closely with project engineers to select Grade X52 seamless pipes with specialized external coating, along with customized structural steel components that met the demanding specifications of this high-profile infrastructure project.",
+      "products": [
+        "Seamless steel pipes (Grade X52)",
+        "Structural steel beams",
+        "Specialized coated steel plates",
+        "Stainless steel components"
+      ],
+      "results": [
+        "Zero rejection rate for all supplied materials",
+        "On-time project completion",
+        "Extended service life through optimized material selection",
+        "Reduced maintenance requirements"
+      ],
+      "testimonial": {
+        "quote": "Shanghai Xiongji Material Co., Ltd. proved to be an invaluable partner for our metro extension project. Their technical expertise and ability to deliver customized steel solutions that precisely met our specifications contributed significantly to the project's success.",
+        "author": "Li Wei",
+        "position": "Chief Project Engineer",
+        "company": "Shanghai Metro Corporation"
+      }
+    },
+    {
+      "id": "commercial-high-rise",
+      "title": "Shanghai Financial District High-Rise",
+      "client": "Shanghai Tower Construction & Development Co.",
+      "location": "Shanghai, China",
+      "year": "2023",
+      "category": "Commercial Construction",
+      "description": "Supply of high-performance structural steel, specialized decking, and connection systems for a 38-story commercial tower in Shanghai's financial district.",
+      "featuredImage": "public/images/projects/financial-district-tower.jpg",
+      "images": [
+        "public/images/projects/financial-tower-1.jpg",
+        "public/images/projects/financial-tower-2.jpg",
+        "public/images/projects/financial-tower-3.jpg"
+      ],
+      "challengeDescription": "This cutting-edge commercial tower required exceptional steel performance to support its innovative design, including large open floor plates, specialized curtain wall attachments, and resistance to seismic forces. Materials needed to meet strict sustainability requirements for LEED certification.",
+      "solutionDescription": "We implemented a tiered approach to steel selection, strategically using higher-grade steels for critical structural elements while optimizing cost-efficiency with standard grades for secondary components. Our technical team collaborated closely with architects and structural engineers to ensure all materials met the exact specifications.",
+      "products": [
+        "Q345B high-strength structural steel (H-beams and columns)",
+        "Q235B steel for floor beams and joists",
+        "Hot-dip galvanized support structure for façade",
+        "304 stainless steel for feature architectural elements"
+      ],
+      "results": [
+        "15% reduction in total steel tonnage compared to using standard grades throughout",
+        "8% overall project cost savings",
+        "30% faster erection time due to optimized member sizing",
+        "LEED Gold certification achievement"
+      ],
+      "testimonial": {
+        "quote": "The strategic material selection approach recommended by Shanghai Xiongji Material Co., Ltd. helped us achieve significant cost savings without compromising on quality or performance. Their expertise in specialized steel products was instrumental in meeting our sustainability goals.",
+        "author": "Zhang Min",
+        "position": "Project Director",
+        "company": "Shanghai Tower Construction & Development Co."
+      }
+    },
+    {
+      "id": "renewable-energy-project",
+      "title": "Jiangsu Offshore Wind Farm",
+      "client": "China Energy Investment Corporation",
+      "location": "Jiangsu Province, China",
+      "year": "2023",
+      "category": "Renewable Energy",
+      "description": "Supply of specialized steel components for an offshore wind farm installation, including foundation structures, tower sections, and connection systems.",
+      "featuredImage": "public/images/projects/offshore-wind-farm.jpg",
+      "images": [
+        "public/images/projects/offshore-wind-1.jpg",
+        "public/images/projects/offshore-wind-2.jpg",
+        "public/images/projects/offshore-wind-3.jpg"
+      ],
+      "challengeDescription": "Offshore wind installations present extreme challenges for steel materials, including constant exposure to corrosive seawater, dynamic loading from waves and wind, and the need for exceptional fatigue resistance. All components required precise dimensional specifications to ensure proper assembly in challenging offshore conditions.",
+      "solutionDescription": "Our team provided specialized marine-grade steel with enhanced corrosion resistance properties, precisely manufactured to the project's exacting tolerances. We implemented comprehensive quality control procedures, including advanced non-destructive testing to ensure structural integrity and performance in the harsh marine environment.",
+      "products": [
+        "S355NL marine-grade structural steel plates",
+        "Heavy-duty corrosion-resistant steel pipes",
+        "Specialized high-strength connection components",
+        "Custom-manufactured foundation sections"
+      ],
+      "results": [
+        "Successful installation of 43 wind turbine foundations",
+        "Extended service life projection exceeding 30 years",
+        "Enhanced corrosion resistance reducing maintenance requirements",
+        "Contribution to 250MW of clean energy generation capacity"
+      ],
+      "testimonial": {
+        "quote": "The quality and precision of the steel components supplied by Shanghai Xiongji Material Co., Ltd. significantly streamlined our installation process. Their ability to meet our stringent specifications for marine-grade materials was crucial to the project's success and long-term durability.",
+        "author": "Huang Jian",
+        "position": "Offshore Installation Manager",
+        "company": "China Energy Investment Corporation"
+      }
+    },
+    {
+      "id": "industrial-factory",
+      "title": "Automotive Manufacturing Facility",
+      "client": "Global Motors Shanghai",
+      "location": "Shanghai, China",
+      "year": "2022",
+      "category": "Industrial Construction",
+      "description": "Comprehensive steel package for a state-of-the-art automotive manufacturing facility, including structural framework, specialized processing areas, and material handling systems.",
+      "featuredImage": "public/images/projects/automotive-facility.jpg",
+      "images": [
+        "public/images/projects/automotive-1.jpg",
+        "public/images/projects/automotive-2.jpg",
+        "public/images/projects/automotive-3.jpg"
+      ],
+      "challengeDescription": "This advanced manufacturing facility required specialized steel solutions for heavy machinery foundations, precise dimensional stability for robotic assembly areas, and vibration control for sensitive equipment. The accelerated construction schedule demanded exceptional coordination and just-in-time delivery.",
+      "solutionDescription": "We developed a comprehensive supply strategy integrating structural steel, specialized flooring systems, and equipment support structures. Our technical team collaborated with the client's engineers to optimize material specifications for each application zone within the facility, balancing performance requirements with cost-efficiency.",
+      "products": [
+        "Structural steel framework (columns, beams, and trusses)",
+        "Heavy-duty floor plate for manufacturing areas",
+        "Galvanized support structures for equipment installation",
+        "Specialized steel components for paint shop and assembly lines"
+      ],
+      "results": [
+        "On-time completion despite accelerated 14-month construction schedule",
+        "Successful installation and alignment of precision manufacturing equipment",
+        "Vibration performance meeting stringent robotic assembly requirements",
+        "20% reduction in steel tonnage through optimized engineering"
+      ],
+      "testimonial": {
+        "quote": "Shanghai Xiongji Material Co., Ltd. delivered exceptional value through their engineering expertise and material quality. Their ability to understand our manufacturing requirements and translate them into optimized steel solutions contributed significantly to the success of our new production facility.",
+        "author": "Richard Chen",
+        "position": "Facility Development Director",
+        "company": "Global Motors Shanghai"
+      }
+    },
+    {
+      "id": "hospital-complex",
+      "title": "Shanghai Medical Center",
+      "client": "Shanghai Health Development Corporation",
+      "location": "Shanghai, China",
+      "year": "2022",
+      "category": "Healthcare",
+      "description": "Supply of specialized steel products for a state-of-the-art medical center, including structural components, medical gas system supports, and radiation shielding solutions.",
+      "featuredImage": "public/images/projects/medical-center.jpg",
+      "images": [
+        "public/images/projects/medical-1.jpg",
+        "public/images/projects/medical-2.jpg",
+        "public/images/projects/medical-3.jpg"
+      ],
+      "challengeDescription": "Healthcare facilities present unique challenges including strict hygiene requirements, complex MEP systems integration, specialized equipment support needs, and the requirement for uninterrupted operation during construction phases. This facility also included specialized imaging departments requiring radiation shielding.",
+      "solutionDescription": "We provided a comprehensive steel package tailored to the specific requirements of healthcare construction. This included antimicrobial stainless steel for sensitive areas, high-density materials for radiation shielding, and precision-engineered support systems for medical equipment. Our technical team worked closely with healthcare planners to ensure all materials met stringent medical facility standards.",
+      "products": [
+        "Structural steel framework with vibration control features",
+        "304/316 stainless steel for sterile environments",
+        "High-density steel plate for radiation shielding",
+        "Specialized support systems for medical equipment installation"
+      ],
+      "results": [
+        "Achievement of all building code and healthcare certification requirements",
+        "Successful installation of sensitive medical equipment with zero alignment issues",
+        "Effective radiation containment meeting all safety standards",
+        "Accelerated construction timeline enabling earlier facility opening"
+      ],
+      "testimonial": {
+        "quote": "The specialized steel solutions provided by Shanghai Xiongji Material Co., Ltd. were instrumental in meeting the complex requirements of our medical center. Their understanding of healthcare construction standards and ability to deliver customized solutions made them a valuable project partner.",
+        "author": "Dr. Zhao Ling",
+        "position": "Facility Planning Director",
+        "company": "Shanghai Health Development Corporation"
+      }
+    },
+    {
+      "id": "residential-development",
+      "title": "Riverside Residential Complex",
+      "client": "Shanghai Urban Development Group",
+      "location": "Shanghai, China",
+      "year": "2021",
+      "category": "Residential Construction",
+      "description": "Supply of comprehensive steel products for a premium residential development featuring multiple high-rise towers and amenity facilities.",
+      "featuredImage": "public/images/projects/riverside-residential.jpg",
+      "images": [
+        "public/images/projects/residential-1.jpg",
+        "public/images/projects/residential-2.jpg",
+        "public/images/projects/residential-3.jpg"
+      ],
+      "challengeDescription": "This premium residential development required balancing structural performance with aesthetic considerations, noise reduction between living spaces, and integration of smart building technologies. The waterfront location also presented challenges related to corrosion protection and wind loading.",
+      "solutionDescription": "We developed a specialized steel package focusing on lightweighting without compromising structural integrity. This included optimized floor systems for improved acoustic performance, corrosion-resistant materials for exterior applications, and architecturally exposed structural steel elements for feature areas. Our team coordinated closely with architects to ensure structural elements complemented the design aesthetic.",
+      "products": [
+        "High-strength structural steel for tower frameworks",
+        "Lightweight composite floor systems",
+        "Corrosion-resistant exterior components",
+        "Architectural exposed structural steel for feature elements"
+      ],
+      "results": [
+        "Achievement of premium residential quality standards",
+        "Superior acoustic performance exceeding building code requirements",
+        "Enhanced corrosion protection for waterfront location",
+        "Successful integration of exposed structural elements as design features"
+      ],
+      "testimonial": {
+        "quote": "Shanghai Xiongji Material Co., Ltd. understood our vision for creating a premium residential experience. Their attention to detail on both technical performance and aesthetic considerations helped us deliver exceptional quality to our residents.",
+        "author": "Liu Yan",
+        "position": "Development Director",
+        "company": "Shanghai Urban Development Group"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "commercial-construction",
+      "name": "Commercial Construction",
+      "description": "Office buildings, retail complexes, and mixed-use developments that showcase our steel products in commercial applications."
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Transportation, utility, and public works projects that rely on our high-performance steel materials."
+    },
+    {
+      "id": "industrial-construction",
+      "name": "Industrial Construction",
+      "description": "Manufacturing facilities, warehouses, and processing plants utilizing our steel solutions for industrial applications."
+    },
+    {
+      "id": "residential-construction",
+      "name": "Residential Construction",
+      "description": "Multi-family housing developments and residential complexes featuring our steel products."
+    },
+    {
+      "id": "renewable-energy",
+      "name": "Renewable Energy",
+      "description": "Wind, solar, and other renewable energy installations that implement our specialized steel components."
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "description": "Hospitals, medical centers, and healthcare facilities built with our steel products designed for specialized medical environments."
+    }
+  ]
+}
